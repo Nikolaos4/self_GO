@@ -1,7 +1,7 @@
 package main 
 import "fmt"
 
-func main () {
+func main() {
 	str1 := "Hello, ";
 	str2 := "Word!";
 	number, text := add(3, 4, str1, str2);
