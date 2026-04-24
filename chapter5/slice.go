@@ -44,7 +44,7 @@ func main() {
 
 	//поиск
 	//sort.SearchInts(), sort.SearchFloat64s(), sort.SearchStrings
-	fmt.Println(sort.SearchInts(slice_of_number, 8));
+	fmt.Println(sort.SearchInts(slice_of_number, 1));
 
 	//сортировка в обратном порядке
 	//sort.IntSlice/sort.Float64Slice/sort.StringSlice
