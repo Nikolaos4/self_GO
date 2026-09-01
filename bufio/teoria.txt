@@ -1,0 +1,2 @@
+Пакет bufio — это стандартная библиотека Go, предназначенная для буферизации ввода-вывода.
+https://habr.com/ru/companies/otus/articles/868658/?ysclid=mtgzv3btzb112647289

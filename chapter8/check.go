@@ -38,4 +38,5 @@ func main() {
     value, ok := shape.(Rectangle) 
     fmt.Println(ok)  // true
     fmt.Println(value)  // {20 10 150 100}
+    
 }

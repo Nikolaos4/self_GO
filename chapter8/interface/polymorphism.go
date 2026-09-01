@@ -5,6 +5,10 @@ type Vehicle interface {
 	move()
 }
 
+func drive(v Vehicle) {
+	v.move()
+}
+
 type Car struct { model string}
 
 type Aircraft struct { model string}
