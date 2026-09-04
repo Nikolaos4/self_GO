@@ -1,16 +1,16 @@
 package main
 import (
-	"bufio"
-    "fmt"
-    "os"
-    "strings"
+	"fmt"
 )
 
 func main() {
-	reader := bufio.NewReader(os.Stdin)
-    fmt.Print("Введите числа через пробел: ")
-    input, _ := reader.ReadString('\n')          
-    input = strings.TrimSpace(input)
-	arr := strings.Split(input, " ")
-	fmt.Printf("%T", arr)
+    text := "cwedned"
+    pos := 3
+    s := "D"
+    text_arr := []rune(text)
+    help_arr := make([]rune, len(text_arr))
+    copy(help_arr, text_arr)
+    new_arr := append(help_arr[:pos], []rune(s)...)
+    new_arr = append(new_arr, text_arr[pos:]...)
+    fmt.Println(string(new_arr))
 }
