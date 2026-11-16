@@ -26,7 +26,7 @@ func main() {
 			return
 		}
 		str = strings.TrimSpace(str)
-		if str == "" {
+		if str == "" {	
 			continue
 		}
 		fmt.Fprintf(conn, "%s\n", str)
